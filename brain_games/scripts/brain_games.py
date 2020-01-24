@@ -1,5 +1,15 @@
+# -*- coding: utf-8 -*-
+
+"""Run the project."""
+
+from ..cli import welcome_user
+
+
 def main():
-    print('Welcome to the Brain Games!')
+    """Entry point for project."""
+    print('Welcome to the Brain Games!\n')
+    print(welcome_user())
+
 
 if __name__ == '__main__':
     main()
