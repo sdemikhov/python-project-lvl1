@@ -7,8 +7,7 @@ from ..cli import welcome_user
 
 def main():
     """Entry point for project."""
-    print('Welcome to the Brain Games!\n')
-    print(welcome_user())
+    welcome_user()
 
 
 if __name__ == '__main__':
