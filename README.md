@@ -4,6 +4,7 @@
 <a href="https://travis-ci.org/sdemikhov/python-project-lvl1"><img src="https://travis-ci.org/sdemikhov/python-project-lvl1.svg?branch=master" /></a></p>
 <p>Brain-games is a collection of cli mini-games.</p>
 <h2>Install brain-games:</h2>
+<pre>pip install -i https://test.pypi.org/simple/ sdemikhov-brain-games</pre>
 <p><a href="https://asciinema.org/a/GlEIJEm0ZdqEzIsFNufRn3gIW" target="_blank"><img src="https://asciinema.org/a/GlEIJEm0ZdqEzIsFNufRn3gIW.svg" /></a></p>
 <h2>Run game "Even":</h2>
 <p><a href="https://asciinema.org/a/70XxBZ1kAfiEbvLzX9RadDQ5K" target="_blank"><img src="https://asciinema.org/a/70XxBZ1kAfiEbvLzX9RadDQ5K.svg" /></a></p>
@@ -13,4 +14,6 @@
 <p><a href="https://asciinema.org/a/I22kwxYjVbF5ol4uc4Rj9h4nU" target="_blank"><img src="https://asciinema.org/a/I22kwxYjVbF5ol4uc4Rj9h4nU.svg" /></a></p>
 <h2>Run game "Progression":</h2>
 <p><a href="https://asciinema.org/a/f40ljR2rtE9WT95WoDE7WxWRL" target="_blank"><img src="https://asciinema.org/a/f40ljR2rtE9WT95WoDE7WxWRL.svg" /></a></p>
+<h2>Run game "Prime":</2>
+<p><a href="https://asciinema.org/a/QRuxqDdnhkKFnF7E330a69uHu" target="_blank"><img src="https://asciinema.org/a/QRuxqDdnhkKFnF7E330a69uHu.svg" /></a></p>
 </div>
