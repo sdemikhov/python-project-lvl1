@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
-"""Run game 'even'."""
+"""Run game 'gcd'."""
 
-from ..games.game_even import game_even
+from ..games.game_gcd import game_gcd
 
 
 def main():
     """Entry point for game."""
-    game_even()
+    game_gcd()
 
 
 if __name__ == '__main__':
