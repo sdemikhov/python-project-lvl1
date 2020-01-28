@@ -8,26 +8,32 @@ import prompt
 def ask(question, empty=True):
     """Ask question by prompt return answer.
 
+    Argument:
+    question -- string contain question
+
     Keyword argument:
-    empty -- permit empty answer
+    empty -- permit empty user input
     """
-    return prompt.string(question, empty=empty)
+    answer = prompt.string(question, empty=empty)
+    if answer is None:
+        answer = ''
+    return answer
 
 
 def say(phrase):
-    """Print phrase to stdout"""
+    """Print phrase to stdout."""
     print(phrase)
 
 
-def welcome_user(game_description=None):
+def welcome_user(description=None):
     """Greeting user, show game rules, ask user name return user name.
 
     Keyword argument:
-    game_description -- show game description after greeting
+    description -- string contain game description
     """
     say('Welcome to the Brain Games!')
-    if game_description:
-        say(game_description)
+    if description:
+        say(description)
     name = ask('\nMay I have your name? ', False)
     say(f'Hello, {name}!\n')
     return name
