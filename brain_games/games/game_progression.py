@@ -52,5 +52,5 @@ def game_progression_logic():
 
 
 def game_progression():
-    """Passes description and logic for brain-calc game to engine."""
+    """Passes description and logic for brain-progression game to engine."""
     game_base(game_progression_description, game_progression_logic)
