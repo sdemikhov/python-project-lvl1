@@ -11,4 +11,6 @@
 <p><a href="https://asciinema.org/a/9wrgNUF46aAXLwVx667PimSe5" target="_blank"><img src="https://asciinema.org/a/9wrgNUF46aAXLwVx667PimSe5.svg" /></a></p>
 <h2>Run game "GCD":</h2>
 <p><a href="https://asciinema.org/a/I22kwxYjVbF5ol4uc4Rj9h4nU" target="_blank"><img src="https://asciinema.org/a/I22kwxYjVbF5ol4uc4Rj9h4nU.svg" /></a></p>
+<h2>Run game "Progression":</h2>
+<p><a href="https://asciinema.org/a/f40ljR2rtE9WT95WoDE7WxWRL" target="_blank"><img src="https://asciinema.org/a/f40ljR2rtE9WT95WoDE7WxWRL.svg" /></a></p>
 </div>
