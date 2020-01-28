@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Contain base game logic."""
+"""Contain game engine."""
 
 from ..cli import welcome_user, ask, say
 
@@ -30,4 +30,3 @@ def game_base(description, game_logic, wins_max=3):
                 f"Let's try again, {username}!")
             wins = 0
     say(f"Congratulations, {username}!")
-
