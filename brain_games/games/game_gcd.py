@@ -8,7 +8,7 @@ from math import gcd
 from .game_base import game_base
 
 
-game_gcd_description = """
+GAME_GCD_DESCRIPTION = """
 Find the greatest common divisor of given numbers.
 """
 
@@ -23,4 +23,4 @@ def game_gcd_logic():
 
 def game_gcd():
     """Passes description and logic for brain-gcd game to engine."""
-    game_base(game_gcd_description, game_gcd_logic)
+    game_base(GAME_GCD_DESCRIPTION, game_gcd_logic)

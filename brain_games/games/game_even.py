@@ -7,7 +7,7 @@ from random import randrange
 from .game_base import game_base
 
 
-game_even_description = """
+GAME_EVEN_DESCRIPTION = """
 Answer "yes" if number even otherwise answer "no".
 """
 
@@ -24,4 +24,4 @@ def game_even_logic():
 
 def game_even():
     """Passes description and logic for brain-even game to engine."""
-    game_base(game_even_description, game_even_logic)
+    game_base(GAME_EVEN_DESCRIPTION, game_even_logic)

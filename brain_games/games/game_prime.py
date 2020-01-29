@@ -7,7 +7,7 @@ from random import randrange
 from .game_base import game_base
 
 
-game_prime_description = """
+GAME_PRIME_DESCRIPTION = """
 Answer "yes" if given number is prime. Otherwise answer "no"
 """
 
@@ -31,4 +31,4 @@ def game_prime_logic():
 
 def game_prime():
     """Passes description and logic for brain-prime game to engine."""
-    game_base(game_prime_description, game_prime_logic)
+    game_base(GAME_PRIME_DESCRIPTION, game_prime_logic)

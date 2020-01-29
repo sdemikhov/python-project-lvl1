@@ -7,7 +7,7 @@ from random import randrange
 from .game_base import game_base
 
 
-game_progression_description = """
+GAME_PROGRESSION_DESCRIPTION = """
 What number is missing in the progression?
 """
 
@@ -53,4 +53,4 @@ def game_progression_logic():
 
 def game_progression():
     """Passes description and logic for brain-progression game to engine."""
-    game_base(game_progression_description, game_progression_logic)
+    game_base(GAME_PROGRESSION_DESCRIPTION, game_progression_logic)

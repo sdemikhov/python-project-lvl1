@@ -8,7 +8,7 @@ from operator import add, mul, sub
 from .game_base import game_base
 
 
-game_calc_description = "What is the result of the expression?"
+GAME_CALC_DESCRIPTION = "What is the result of the expression?"
 
 
 def game_calc_logic():
@@ -23,4 +23,4 @@ def game_calc_logic():
 
 def game_calc():
     """Passes description and logic for brain-calc game to engine."""
-    game_base(game_calc_description, game_calc_logic)
+    game_base(GAME_CALC_DESCRIPTION, game_calc_logic)

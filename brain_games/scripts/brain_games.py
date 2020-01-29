@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 
-"""Run the project."""
+"""Run only welcome func."""
 
 from ..cli import welcome_user
 
 
 def main():
-    """Entry point for project."""
+    """Entry point for welcome func."""
     welcome_user()
 
 
