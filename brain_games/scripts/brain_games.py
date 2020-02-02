@@ -2,7 +2,7 @@
 
 """Run only welcome func."""
 
-from ..cli import welcome_user
+from brain_games.cli import welcome_user
 
 
 def main():

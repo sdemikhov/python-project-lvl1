@@ -4,15 +4,13 @@
 
 from random import randrange
 
-from .game_base import game_base
 
-
-GAME_PRIME_DESCRIPTION = """
+DESCRIPTION = """
 Answer "yes" if given number is prime. Otherwise answer "no"
 """
 
 
-def game_prime_logic():
+def logic():
     """Define logic for brain-prime game.
 
     return tuple of question, correct answer
@@ -27,8 +25,3 @@ def game_prime_logic():
                 answer = 'no'
                 break
     return question, str(answer)
-
-
-def game_prime():
-    """Passes description and logic for brain-prime game to engine."""
-    game_base(GAME_PRIME_DESCRIPTION, game_prime_logic)

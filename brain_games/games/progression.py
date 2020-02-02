@@ -4,10 +4,8 @@
 
 from random import randrange
 
-from .game_base import game_base
 
-
-GAME_PROGRESSION_DESCRIPTION = """
+DESCRIPTION = """
 What number is missing in the progression?
 """
 
@@ -33,7 +31,7 @@ def arithmetic_progression(start, step, length, values_as_string=False):
     return result
 
 
-def game_progression_logic():
+def logic():
     """Define logic for brain-progression game.
 
     return tuple of question, correct answer
@@ -49,8 +47,3 @@ def game_progression_logic():
     progression.insert(hide_num_idx, '..')
     question = ' '.join(progression)
     return question, str(answer)
-
-
-def game_progression():
-    """Passes description and logic for brain-progression game to engine."""
-    game_base(GAME_PROGRESSION_DESCRIPTION, game_progression_logic)

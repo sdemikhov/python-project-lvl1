@@ -2,23 +2,19 @@
 
 """Contain game engine."""
 
-from ..cli import welcome_user, ask, say
+from brain_games.cli import welcome_user, ask, say
 
 
-def game_base(description, game_logic, wins_max=3):
+def run(game):
     """Define game engine.
 
-    Arguments:
-    description -- string contain game description
-    game_logic -- function than return question and correct answer
-
-    Keyword argument:
-    wins_max -- int rounds the user must win in a row
+    Argument:
+    game -- module than contains description and game logic
     """
-    username = welcome_user(description.strip())
+    username = welcome_user(game.DESCRIPTION.strip())
     wins = 0
-    while (wins < wins_max):
-        question, correct_answer = game_logic()
+    while (wins < 3):
+        question, correct_answer = game.logic()
         say(f'Question: {question}')
         user_answer = ask(f'Your answer: ')
         if user_answer == correct_answer:

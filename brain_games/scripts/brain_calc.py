@@ -2,12 +2,12 @@
 
 """Run game 'even'"""
 
-from ..games.game_calc import game_calc
+from brain_games import engine, games
 
 
 def main():
     """Entry point for game."""
-    game_calc()
+    engine.run(games.calc)
 
 
 if __name__ == '__main__':
