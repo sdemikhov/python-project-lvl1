@@ -8,5 +8,5 @@
 <h2>Run brain-games:</h2>
 <p>To run games use following commands:<ul><li>brain-even</li><li>brain-calc</li><li>brain-gcd</li><li>brain-progression</li><li>brain-prime</li></ul></p>
 <h2>Full gameplay demo:</h2>
-<p><a href="https://asciinema.org/a/qi4WO9TYoygMwTIChB4tW9UNv" target="_blank"><img src="https://asciinema.org/a/qi4WO9TYoygMwTIChB4tW9UNv.svg" /></a></p>
+<p><a href="https://asciinema.org/a/oxDoRykjn3ITuwD5v5N46hMro" target="_blank"><img src="https://asciinema.org/a/oxDoRykjn3ITuwD5v5N46hMro.svg" /></a></p>
 </div>
