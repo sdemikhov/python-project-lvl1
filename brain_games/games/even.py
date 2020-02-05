@@ -5,9 +5,7 @@
 from random import randrange
 
 
-DESCRIPTION = """
-Answer "yes" if number even otherwise answer "no".
-"""
+DESCRIPTION = 'Answer "yes" if number even otherwise answer "no".'
 
 
 def logic():

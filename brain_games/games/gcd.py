@@ -6,9 +6,7 @@ from random import randrange
 from math import gcd
 
 
-DESCRIPTION = """
-Find the greatest common divisor of given numbers.
-"""
+DESCRIPTION = "Find the greatest common divisor of given numbers."
 
 
 def logic():

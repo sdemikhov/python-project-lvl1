@@ -11,7 +11,7 @@ def run(game):
     Argument:
     game -- module than contains description and game logic
     """
-    username = welcome_user(game.DESCRIPTION.strip())
+    username = welcome_user(game.DESCRIPTION)
     wins = 0
     while (wins < 3):
         question, correct_answer = game.logic()
@@ -24,5 +24,5 @@ def run(game):
             say(f"'{user_answer}' is wrong answer ;(. Correct answer"
                 f" was '{correct_answer}'. "
                 f"Let's try again, {username}!")
-            wins = 0
+            return
     say(f"Congratulations, {username}!")

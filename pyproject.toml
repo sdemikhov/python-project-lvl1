@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sdemikhov_brain_games"
-version = "0.6.2"
+version = "0.6.3"
 description = "Brain-games is a collection of cli mathematical mini-games."
 authors = ["Sergey Demikhov <demikhov.sergey@gmail.com>"]
 packages = [
