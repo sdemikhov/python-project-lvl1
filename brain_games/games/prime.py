@@ -10,6 +10,11 @@ DESCRIPTION = ('Answer "yes" if given number is prime.'
 
 
 def is_prime(num):
+    """Primality Test for given number return boolean.
+
+    Argument:
+    num -- int number
+    """
     if num <= 1:
         return False
     elif num >= 4:

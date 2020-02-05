@@ -3,15 +3,36 @@
 """Contain game-gcd logic."""
 
 from random import randrange
-from math import gcd
 
 
 DESCRIPTION = "Find the greatest common divisor of given numbers."
 
 
+def gcd(num_left, num_right):
+    """Return greatest common divisor of given numbers.
+
+    Arguments:
+    num_left -- int number
+    num_right -- int number
+    """
+    b, a = sorted([num_left, num_right])
+    i = 1
+    while True:
+        r = a - b * i
+        if r == 0:
+            return b
+        elif r < b:
+            i = 1
+            a = b
+            b = r
+            continue
+        i += 1
+
+
 def logic():
     """Define logic for brain-gcd game, return question, answer"""
-    num1, num2 = [randrange(100) for _ in range(2)]
-    question = f'{num1} {num2}'
-    answer = gcd(num1, num2)
+    num_left = randrange(100)
+    num_right = randrange(100)
+    question = f'{num_left} {num_right}'
+    answer = gcd(num_left, num_right)
     return question, str(answer)
