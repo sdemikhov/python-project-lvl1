@@ -1,6 +1,6 @@
 <h1>python-project-lvl1</h1>
 <div>
-<p><a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
+<p><a href="https://codeclimate.com/github/sdemikhov/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/45d387e114b95395441d/maintainability" /></a>
 <a href="https://travis-ci.org/sdemikhov/python-project-lvl1"><img src="https://travis-ci.org/sdemikhov/python-project-lvl1.svg?branch=master" /></a></p>
 <p>Brain-games is a collection of cli mathematical mini-games.</p>
 <h2>Install brain-games:</h2>
