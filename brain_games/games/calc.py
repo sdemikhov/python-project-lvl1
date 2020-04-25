@@ -16,9 +16,9 @@ OPERATORS = [('+', add),
 
 def logic():
     """Define logic for brain-calc game, return question, answer"""
-    oper, function = choice(OPERATORS)
-    num_left = randrange(100)
-    num_right = randrange(100)
-    question = f'{num_left} {oper} {num_right}'
-    answer = function(num_left, num_right)
+    _operator, function = choice(OPERATORS)
+    number_left = randrange(100)
+    number_right = randrange(100)
+    question = f'{number_left} {_operator} {number_right}'
+    answer = function(number_left, number_right)
     return question, str(answer)

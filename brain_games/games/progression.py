@@ -20,6 +20,9 @@ def arithmetic_progression(start, step, length):
     return [str(num) for num in range(start, num_last+1, step)]
 
 
+PROG_LENGTH = 10
+
+
 def logic():
     """Define logic for brain-progression game.
 
@@ -27,7 +30,6 @@ def logic():
     """
     prog_start = randrange(100)
     prog_step = randrange(1, 11)
-    PROG_LENGTH = 10
     progression = arithmetic_progression(start=prog_start,
                                          step=prog_step,
                                          length=PROG_LENGTH)

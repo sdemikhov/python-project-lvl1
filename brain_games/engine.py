@@ -2,7 +2,10 @@
 
 """Contain game engine."""
 
-from brain_games.cli import welcome_user, ask, say
+from brain_games.cli import welcome_user, ask
+
+
+MAX_WINS = 3
 
 
 def run(game):
@@ -13,16 +16,16 @@ def run(game):
     """
     username = welcome_user(game.DESCRIPTION)
     wins = 0
-    while (wins < 3):
+    while wins < MAX_WINS:
         question, correct_answer = game.logic()
-        say(f'Question: {question}')
+        print(f'Question: {question}')
         user_answer = ask(f'Your answer: ')
         if user_answer == correct_answer:
-            say('Correct!')
+            print('Correct!')
             wins += 1
         else:
-            say(f"'{user_answer}' is wrong answer ;(. Correct answer"
+            print(f"'{user_answer}' is wrong answer ;(. Correct answer"
                 f" was '{correct_answer}'. "
                 f"Let's try again, {username}!")
             return
-    say(f"Congratulations, {username}!")
+    print(f"Congratulations, {username}!")
