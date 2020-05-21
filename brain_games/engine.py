@@ -25,7 +25,7 @@ def run(game):
             wins += 1
         else:
             print(f"'{user_answer}' is wrong answer ;(. Correct answer"
-                f" was '{correct_answer}'. "
-                f"Let's try again, {username}!")
+                  f" was '{correct_answer}'. "
+                  f"Let's try again, {username}!")
             return
     print(f"Congratulations, {username}!")
